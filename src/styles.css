@@ -47,6 +47,7 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --color-ring-offset-background: var(--background);
+  --color-telegram: var(--telegram);
   --color-chart-1: var(--chart-1);
   --color-chart-2: var(--chart-2);
   --color-chart-3: var(--chart-3);
@@ -88,6 +89,7 @@
   --surface: oklch(1 0 0);
   --surface-foreground: oklch(0.32 0 0);
   --verified: oklch(0.74 0.15 230);
+  --telegram: oklch(0.66 0.16 233);
   --shadow-profile: 0 8px 20px oklch(0 0 0 / 8%);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
