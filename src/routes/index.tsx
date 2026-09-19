@@ -36,7 +36,7 @@ function Index() {
           </p>
 
           <div className="grid gap-4">
-            <a href="https://vip.kim-culona.com/go?k=of" className="animate-link-reveal flex h-[3.25rem] items-center rounded-full border-2 border-primary bg-surface p-2 text-sm font-bold text-surface-foreground transition-transform hover:scale-[1.015] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring" rel="noreferrer">
+            <a href="https://t.me/milenaculonaabot" className="animate-link-reveal flex h-[3.25rem] items-center rounded-full border-2 border-primary bg-surface p-2 text-sm font-bold text-surface-foreground transition-transform hover:scale-[1.015] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring" rel="noreferrer">
               <span className="mr-4 grid size-8 shrink-0 place-items-center rounded-full text-telegram"><TelegramMark /></span>
               <span>Conteúdo Exclusivo</span>
               <ChevronRight className="ml-auto mr-3 size-[1.125rem]" aria-hidden="true" />
