@@ -41,7 +41,7 @@ function Index() {
               <span>Conteúdo Exclusivo</span>
               <ChevronRight className="ml-auto mr-3 size-[1.125rem]" aria-hidden="true" />
             </a>
-            <a href="https://www.instagram.com/kimculona" className="animate-link-reveal flex h-[3.25rem] items-center rounded-full border border-border bg-surface p-2 text-sm text-surface-foreground transition-transform hover:scale-[1.015] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring" style={{ animationDelay: "150ms" }} rel="noreferrer">
+            <a href="https://www.instagram.com/milena.culonaa" className="animate-link-reveal flex h-[3.25rem] items-center rounded-full border border-border bg-surface p-2 text-sm text-surface-foreground transition-transform hover:scale-[1.015] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring" style={{ animationDelay: "150ms" }} rel="noreferrer">
               <span className="mr-4 grid size-8 shrink-0 place-items-center rounded-full bg-foreground text-background"><Instagram className="size-[1.125rem]" aria-hidden="true" /></span>
               <span>Instagram</span>
               <ChevronRight className="ml-auto mr-3 size-[1.125rem]" aria-hidden="true" />
