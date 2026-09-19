@@ -6,10 +6,10 @@ import profileAsset from "../assets/profile.asset.json";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Milena Kulonaa" },
-      { name: "description", content: "Model & Content Creator" },
-      { property: "og:title", content: "Milena Kulonaa" },
-      { property: "og:description", content: "Model & Content Creator" },
+      { title: "Milena Culonaa" },
+      { name: "description", content: "Modelo — meus conteúdos no primeiro link" },
+      { property: "og:title", content: "Milena Culonaa" },
+      { property: "og:description", content: "Modelo — meus conteúdos no primeiro link" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -38,7 +38,7 @@ function Index() {
 
   return (
     <main className="min-h-screen bg-background text-center">
-      <section className="relative mx-auto min-h-[33.125rem] max-w-3xl" aria-label="Perfil de Milena Kulonaa">
+      <section className="relative mx-auto min-h-[33.125rem] max-w-3xl" aria-label="Perfil de Milena Culonaa">
         <div className="relative h-40 overflow-hidden bg-banner bg-cover bg-center md:rounded-b-2xl" style={bannerUrl ? { backgroundImage: `url(${bannerUrl})` } : undefined}>
           <label className="absolute right-4 top-4 grid size-9 cursor-pointer place-items-center rounded-full bg-surface/90 text-surface-foreground shadow-sm transition-transform hover:scale-105 focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-ring" title="Trocar banner">
             <ImagePlus className="size-4" aria-hidden="true" />
@@ -49,7 +49,7 @@ function Index() {
 
         <div className="relative -mt-20 px-6 pb-12">
           <div className="animate-profile-reveal relative mx-auto mb-8 size-40">
-            <img src={profileUrl} alt="Milena Kulonaa" className="size-40 rounded-full border-4 border-surface bg-surface object-cover shadow-profile" />
+            <img src={profileUrl} alt="Milena Culonaa" className="size-40 rounded-full border-4 border-surface bg-surface object-cover shadow-profile" />
             <label className="absolute bottom-1 right-1 grid size-9 cursor-pointer place-items-center rounded-full bg-surface text-surface-foreground shadow-sm transition-transform hover:scale-105 focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-ring" title="Trocar foto do perfil">
               <ImagePlus className="size-4" aria-hidden="true" />
               <span className="sr-only">Trocar foto do perfil</span>
@@ -58,11 +58,11 @@ function Index() {
           </div>
 
           <div className="animate-profile-reveal flex items-center justify-center" style={{ animationDelay: "120ms" }}>
-            <h1 className="mr-2 text-2xl font-bold leading-none">Milena Kulonaa</h1>
+            <h1 className="mr-2 text-2xl font-bold leading-none">Milena Culonaa</h1>
             <VerifiedBadge />
           </div>
           <p className="animate-profile-reveal mb-8 mt-4 text-[0.9rem] uppercase leading-[1.125rem] opacity-70" style={{ animationDelay: "220ms" }}>
-            Model <span className="opacity-50">&amp;</span> Content Creator
+            Modelo <span className="opacity-50">·</span> Meus conteúdos no primeiro link
           </p>
 
           <div className="grid gap-4">
