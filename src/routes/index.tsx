@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ChevronRight, Instagram } from "lucide-react";
-import profileAsset from "../assets/profile.asset.json";
+import profileImg from "../assets/profile.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
