@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ChevronRight, Instagram } from "lucide-react";
-import profileAsset from "../assets/profile.asset.json";
+import profileImg from "../assets/profile.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -24,7 +24,7 @@ function Index() {
 
         <div className="relative -mt-20 px-6 pb-12">
           <div className="animate-profile-reveal relative mx-auto mb-8 size-40">
-            <img src={profileAsset.url} alt="Milena Culonaa" className="size-40 rounded-full border-4 border-surface bg-surface object-cover shadow-profile" />
+            <img src={profileImg} alt="Milena Culonaa" className="size-40 rounded-full border-4 border-surface bg-surface object-cover shadow-profile" />
           </div>
 
           <div className="animate-profile-reveal flex items-center justify-center" style={{ animationDelay: "120ms" }}>
